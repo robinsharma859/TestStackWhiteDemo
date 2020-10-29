@@ -17,7 +17,7 @@ namespace Test_jenkins
       
         static void Main(string[] args)
         {
-         
+            Console.WriteLine("dummy main file");
            // Driver.instance.LaunchApplication();
            //var windows = Driver.instance.WaitForWindow("Studio Activation");
            // //IUIItem element = windows.Get(SearchCriteria.ByAutomationId("RadioButtonA"));
