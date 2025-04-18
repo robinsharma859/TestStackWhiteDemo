@@ -21,7 +21,7 @@ namespace Test_jenkins
 
         public void LaunchApplication()
         {
-            application = Application.Launch(@"C:\Program Files\Winshuttle\Studio\Winshuttle Studio.exe");
+            application = Application.Launch(@"C:\Program Files\App\SAP.exe");
             application.WaitWhileBusy();
             appList.Add("1", application);
          }
